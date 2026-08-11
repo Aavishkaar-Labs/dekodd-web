@@ -146,6 +146,22 @@ body::before {
 }
 .nav-cta:hover { background: var(--cyan-deep); color: var(--paper) !important; transform: translateY(-1px); }
 
+.nav-newsletter-link {
+  color: var(--cyan-deeper) !important;
+  font-weight: 600 !important;
+  position: relative;
+}
+.nav-newsletter-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; left: 0; right: 0;
+  height: 1px;
+  background: var(--cyan-mid);
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+.nav-newsletter-link:hover::after { transform: scaleX(1); }
+
 /* ============================================================ */
 /*  HERO                                                         */
 /* ============================================================ */
