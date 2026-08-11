@@ -1,5 +1,5 @@
 /* ============================================================
-   ARTHA NEWSLETTER — Page Styles
+   NEWSLETTER — Page Styles
    Follows the existing Dekodd design system (globals.css)
    ============================================================ */
 
@@ -133,29 +133,6 @@
   font-weight: 600;
 }
 
-.nl-hero-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 20px;
-  font-family: var(--font-mono, ui-monospace, monospace);
-  font-size: 11px;
-  letter-spacing: 0.4px;
-  color: var(--ink-mute);
-}
-
-.nl-hero-meta span {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.nl-hero-meta span::before {
-  content: '';
-  width: 4px; height: 4px;
-  border-radius: 50%;
-  background: var(--cyan-deep);
-}
-
 /* Issue card */
 .nl-issue-card {
   background: var(--navy);
@@ -194,14 +171,27 @@
 }
 
 .nl-issue-list li {
+  border-bottom: 1px solid rgba(0,212,255,0.08);
+}
+
+.nl-issue-list li a {
   display: flex;
   align-items: baseline;
   gap: 12px;
   padding: 14px 0;
-  border-bottom: 1px solid rgba(0,212,255,0.08);
   font-size: 14.5px;
   color: rgba(244,250,255,0.85);
   line-height: 1.4;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.nl-issue-list li a:hover {
+  color: var(--paper);
+}
+
+.nl-issue-list li a:hover .nl-issue-num {
+  color: var(--cyan-hi);
 }
 
 .nl-issue-num {

@@ -1,5 +1,5 @@
 /**
- * Artha Newsletter — Indian Mutual Fund Data
+ * Newsletter — Indian Mutual Fund Data
  *
  * DATA SOURCES & DATES (as of 11 Aug 2026):
  *

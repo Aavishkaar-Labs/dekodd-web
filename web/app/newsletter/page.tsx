@@ -11,12 +11,12 @@ import { mutualFunds, usStocks, ageStrategies } from '@/lib/newsletter';
 import './newsletter.css';
 
 export const metadata: Metadata = {
-  title: 'Artha by Dekodd — Weekly Market Intelligence',
+  title: 'Newsletter — Monthly Market Intelligence | Dekodd',
   description:
-    'Artha breaks down mutual funds, US stocks, and age-based investment strategies for India\'s retail investors — without jargon, without noise.',
-  keywords: ['mutual funds India', 'SIP allocation', 'US stocks India', 'investing by age', 'Dekodd Artha newsletter'],
+    'Dekodd breaks down mutual funds, US stocks, and age-based investment strategies for India\'s retail investors — without jargon, without noise.',
+  keywords: ['mutual funds India', 'SIP allocation', 'US stocks India', 'investing by age', 'Dekodd newsletter'],
   openGraph: {
-    title: 'Artha by Dekodd — Weekly Market Intelligence',
+    title: 'Newsletter — Monthly Market Intelligence | Dekodd',
     description: 'Educational investing newsletter for India\'s retail investors. Mutual funds, US stocks, and age-based strategies explained simply.',
     type: 'website',
   },
