@@ -19,8 +19,9 @@ export default function Nav() {
         </Link>
 
         <div className="nav-links">
-          <Link href="#features">Features</Link>
-          <Link href="#principles">How we work</Link>
+          <Link href="/#features">Features</Link>
+          <Link href="/#principles">How we work</Link>
+          <Link href="/newsletter" className="nav-newsletter-link">Artha Newsletter</Link>
         </div>
       </div>
     </nav>
