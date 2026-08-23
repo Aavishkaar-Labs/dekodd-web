@@ -21,6 +21,7 @@ export default function Nav() {
         <div className="nav-links">
           <Link href="/#features">Features</Link>
           <Link href="/#principles">How we work</Link>
+          <Link href="/ipos">IPOs</Link>
           <Link href="/newsletter" className="nav-newsletter-link">Newsletter</Link>
         </div>
       </div>
